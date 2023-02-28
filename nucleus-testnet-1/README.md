@@ -9,7 +9,7 @@ In order to join Nucleus Testnet,
 - Add "c7f78e7ba5c7db4000770bbdbfb47db427aec20a@65.109.231.159:26656" to `persistent_peers` in `config.toml` 
 - Start nucleusd, and wait couple minutes(might take less/long depending on the network conditions) to sync with testnet.
 
-You can also try public testnet nodes available using:
+You can also try public testnet node available using:
 - grpc endpoint: http://65.109.231.159:9090
 - rpc endpoint: http://65.109.231.159:26657
 - rest endpoint : http://65.109.231.159:1317
