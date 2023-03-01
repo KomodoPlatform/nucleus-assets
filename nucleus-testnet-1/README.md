@@ -2,7 +2,7 @@
 
 Nucleus Testnet performs exactly same actions as mainnet specifically for development and testing purposes. Therefore, developers can use this service for development/testing purposes without taking any risk at all.
 
-In order to join Nucleus Testnet,
+## Join Nucleus Testnet
 
 - First visit [KomodoPlatform/nucleus](https://github.com/KomodoPlatform/nucleus) and follow the installation and starting instructions.
 - Replace your `genesis.json` [with this one](https://raw.githubusercontent.com/KomodoPlatform/nucleus-assets/main/nucleus-testnet-1/genesis.json).
@@ -13,3 +13,9 @@ You can also try public testnet node available using:
 - grpc endpoint: http://65.109.231.159:9090
 - rpc endpoint: http://65.109.231.159:26657
 - rest endpoint : http://65.109.231.159:1317
+
+## IBC channel list for testnet
+
+**iris**(nyancat-9) to **nucleus**(nucleus-testnet-1)   -> channel-88
+
+**nucleus**(nucleus-testnet-1) to **iris**(nyancat-9)   -> channel-2
