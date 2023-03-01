@@ -14,7 +14,7 @@ You can also try public testnet node available using:
 - rpc endpoint: http://65.109.231.159:26657
 - rest endpoint : http://65.109.231.159:1317
 
-## IBC channel list for testnet
+## IBC channel list
 
 **iris**(nyancat-9) to **nucleus**(nucleus-testnet-1)   -> channel-88
 
