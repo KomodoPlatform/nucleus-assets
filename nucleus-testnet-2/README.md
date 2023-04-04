@@ -5,8 +5,8 @@ Nucleus Testnet performs exactly same actions as mainnet specifically for develo
 ## Join Nucleus Testnet
 
 - First visit [KomodoPlatform/nucleus](https://github.com/KomodoPlatform/nucleus) and follow the installation and starting instructions.
-- Replace your `genesis.json` [with this one](https://raw.githubusercontent.com/KomodoPlatform/nucleus-assets/main/nucleus-testnet-1/genesis.json).
-- Add "c7f78e7ba5c7db4000770bbdbfb47db427aec20a@65.109.231.159:26656" to `persistent_peers` in `config.toml` 
+- Replace your `genesis.json` [with this one](https://raw.githubusercontent.com/KomodoPlatform/nucleus-assets/main/nucleus-testnet-2/genesis.json).
+- Add "b31370a90047289fe20cf9a510fd79fd3502c257@65.109.231.159:26656" to `persistent_peers` in `config.toml` 
 - Start nucleusd, and wait couple minutes(might take less/long depending on the network conditions) to sync with testnet.
 
 You can also try public testnet node available using:
@@ -16,6 +16,6 @@ You can also try public testnet node available using:
 
 ## IBC channel list
 
-**iris**(nyancat-9) to **nucleus**(nucleus-testnet-1)   -> channel-88
+**iris**(nyancat-9) to **nucleus**(nucleus-testnet-2)   -> channel-92
 
-**nucleus**(nucleus-testnet-1) to **iris**(nyancat-9)   -> channel-2
+**nucleus**(nucleus-testnet-2) to **iris**(nyancat-9)   -> channel-0
