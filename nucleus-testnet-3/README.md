@@ -24,9 +24,9 @@ You can start using:
 - rest endpoint : http://127.0.0.1:1317
 
 Or, you can also try publicly available testnet node using:
-- grpc endpoint: http://5.161.55.53:9090
-- rpc endpoint: http://5.161.55.53:26657
-- rest endpoint : http://5.161.55.53:1317
+- grpc endpoint: https://nucleus-rpc.bravo.komodo.earth:9090
+- rpc endpoint: https://nucleus-rpc.bravo.komodo.earth:26657
+- rest endpoint : https://nucleus-rpc.bravo.komodo.earth:1317
 
 ## Upgrade to Validator Node
 
